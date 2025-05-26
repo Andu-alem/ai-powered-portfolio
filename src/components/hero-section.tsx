@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
-import { ArrowRight, Github } from "lucide-react"
+import { ArrowRight, Github, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Meteors } from "@/components/magicui/meteors"
 
@@ -86,6 +86,14 @@ export function HeroSection() {
                   <path d="M22 2 11 13" />
                 </svg>
                 <span className="sr-only">Telegram</span>
+              </Link>
+              <Link
+                href="mailto:andualem.fereja12@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-foreground"
+              >
+                <Mail className="h-6 w-6" />
               </Link>
             </div>
           </div>
