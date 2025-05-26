@@ -32,8 +32,7 @@ export function SkillsSection() {
   ]
 
   const toolsSkills = [
-    "Git",
-    "GitHub",
+    "Git & GitHub",
     "Docker",
     "CI/CD",
     "Jest",
