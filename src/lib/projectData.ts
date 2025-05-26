@@ -32,7 +32,7 @@ const projectsData = [{
     description: "I designed and developed a compelling landing page for QuantumBit, a Technology Institute, to showcase their courses, expertise, and offerings. The platform combines aesthetic appeal with functionality, delivering a high-performance and SEO-friendly experience. Deployed on Cloudflare pages",
     features: "SEO friendly Landing page with Courses, Pricing, FAQ, and  Testimonials, and with Blog functionality.",
     techStack: ["Astro", "Tailwind", "React", "Markdown"],
-    link: "https://quntum-bit.pages.dev/",
+    link: "https://quantumbit.netlify.app",
     codeLink: "",
     image: "/projects/quantum-bit.PNG"
 },{
