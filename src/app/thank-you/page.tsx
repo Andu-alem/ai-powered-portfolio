@@ -17,7 +17,7 @@ export default function ThankYou() {
         <CheckCircle className="h-24 w-24 text-primary" />
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl">Thank You!</h1>
         <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-          Your message has been sent successfully. I'll get back to you as soon as possible.
+          Your message has been sent successfully. I&apos;ll get back to you as soon as possible.
         </p>
         <Button asChild className="mt-4">
           <Link href="/">Return to Homepage</Link>
