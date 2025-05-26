@@ -1,12 +1,21 @@
 
 const projectsData = [{
+    title: "FinTrack",
+    subTitle: "A telegram mini app",
+    description: "FinTrack is a modern and responsive Telegram Mini App designed to help users effortlessly track their income, expenses, and budgets within the Telegram ecosystem. Built with a mobile-first approach, the app provides a seamless user experience, adapting to Telegram's native theme (light/dark) using the Telegram WebApp SDK (TWA SDK).",
+    features: "Dashboard overview, Budget management, Transaction tracking, Analytics, Responsive UI",
+    techStack: ["React", "TS", "Tailwind", "ShadCN", "React-Router", "Tanstack Query", "Zod", "Firebase Firestore", "Telegram Web Api"],
+    link: "https://t.me/fintrack_app_bot/FinTrack",
+    codeLink: "https://github.com/Andu-alem",
+    image: "/projects/fintrack.PNG"
+},{
     title: "Classice Men's",
     subTitle: "For Fashionista!",
     description: "A comprehensive, feature rich, and responsive e-commerce website for Ideal Men's Fashion store using a modern tech stack and deployed on Vercel, leveraging Vercel Blob Store ad Neon PostgreSQL DB provider.",
     features: "Product listing page, Product detail page, Pagination, Cart management, Admin functionality, and Dark/Light Mode.",
     techStack: ["Next.js", "TS", "Tailwind", "ShadCN", "Zustand", "Better-Auth", "Prisma", "PostgreSQL"],
     link: "https://mencollection.vercel.app/",
-    codeLink: "",
+    codeLink: "https://github.com/Andu-alem/Men-Collection",
     image: "/projects/classicman.PNG"
 },{
     title: "ServiceAd",
@@ -15,7 +24,7 @@ const projectsData = [{
     features: "Services and Businesses listing page, Detail page, Service creation and manage functionality, Search, filter, and rate service functionality",
     techStack: ["Next.js", "Tailwind", "Context API", "Next-Auth", "MongoDB", "Mongoose"],
     link: "https://servicead.vercel.app",
-    codeLink: "",
+    codeLink: "https://github.com/Andu-alem",
     image: "/projects/serviceadv.PNG"
 },{
     title: "NewFormHome",
@@ -24,7 +33,7 @@ const projectsData = [{
     features: "Responsive Design, Product Showcase, Blog, SEO Optimzation",
     techStack: ["Next.js", "Tailwind", "Shadcn/ui", "Strapi CMS", "v0.dev"],
     link: "https://newformhome.vercel.app/",
-    codeLink: "",
+    codeLink: "https://github.com/Andu-alem",
     image: "/projects/newformhome.JPG"
 },{
     title: "QuantumBit",
@@ -33,7 +42,7 @@ const projectsData = [{
     features: "SEO friendly Landing page with Courses, Pricing, FAQ, and  Testimonials, and with Blog functionality.",
     techStack: ["Astro", "Tailwind", "React", "Markdown"],
     link: "https://quantumbit.netlify.app",
-    codeLink: "",
+    codeLink: "https://github.com/Andu-alem",
     image: "/projects/quantum-bit.PNG"
 },{
     title: "Support Ticketing System",
@@ -42,7 +51,7 @@ const projectsData = [{
     features: "Signup/Login, Ticket Creation, Ticket Managment, Responsive Design",
     techStack: ["React", "React-Router", "Tailwind", "Node.js", "Express.js", "MongoDB"],
     link: "https://support-ticketing-system-silk.vercel.app",
-    codeLink: "",
+    codeLink: "https://github.com/Andu-alem/support-ticketing-system",
     image: "/projects/support2.PNG"
 },{
     title: "Personal Portfolio Website",
@@ -51,7 +60,7 @@ const projectsData = [{
     features: "Skill showcase, Projects Gallary, Certifications, Responsive Design",
     techStack: ["Astro", "Tailwind", "DaisyUi", "GitHub Actions"],
     link: "https://andu-alem.github.io",
-    codeLink: "",
+    codeLink: "https://github.com/Andu-alem/Andu-alem.github.io",
     image: "/projects/portfolio-astro.PNG"
 },{
     title: "Portfolio 2",
@@ -60,7 +69,7 @@ const projectsData = [{
     features: "Skill showcase, Projects Gallary, Certifications, Responsive Design",
     techStack: ["Vue3", "Vue-Router", "Tailwind"],
     link: "https://andufereja-portfolio.netlify.app/",
-    codeLink: "",
+    codeLink: "https://github.com/Andu-alem/AndualemFerejaPortolio",
     image: "/projects/portfolio.PNG"
 },{
     title: "ChessGame",
@@ -69,7 +78,7 @@ const projectsData = [{
     features: "Board Customization, Opponent Options, Difficulty Levels, Full Chess Functionality, Progressive Web App - works offline",
     techStack: ["React", "Context API", "Tailwind", "Stockfish", "Chess.js"],
     link: "https://react-chess-app-uixz.onrender.com/",
-    codeLink: "",
+    codeLink: "https://github.com/Andu-alem/react-chess-app",
     image: "/projects/chesszone.PNG"
 },{
     title: "Cool Market",
@@ -78,7 +87,7 @@ const projectsData = [{
     features: "Product listing page, product detail page, pagination, cart management, and admin functionality.",
     techStack: ["Next.js", "Laravel", "Laravel Sanctum", "Tailwind", "SWR"],
     link: "https://github.com/Andu-alem/laravel-next-ecommerce",
-    codeLink: "",
+    codeLink: "https://github.com/Andu-alem",
     image: "/projects/lara-next.PNG"
 },{
     title: "EventUpdater",
@@ -87,7 +96,7 @@ const projectsData = [{
     features: "Responsive Design, Event Listing, Event Creation and Sharing, Search and Filter",
     techStack: ["React", "MUI","Express.js", "MongoDB"],
     link: "https://eventsupcoming.onrender.com/",
-    codeLink: "",
+    codeLink: "https://github.com/Andu-alem",
     image: "/projects/event_shot.JPG"
 }]
 
