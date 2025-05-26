@@ -18,7 +18,43 @@ const projectsData = [{
     codeLink: "",
     image: "/projects/serviceadv.PNG"
 },{
-    title: "Portfolio",
+    title: "NewFormHome",
+    subTitle: "Furniture company",
+    description: "Modern multi-page site with product listings, cart, and blog. The initial structure and layout were rapidly scaffolded using Vercel v0, which I then extensively customized by adjusting the generated code, fixing layout and functionality issues, and integrating it with a Strapi CMS backend for content management. Cloudinary is used for media storage.",
+    features: "Responsive Design, Product Showcase, Blog, SEO Optimzation",
+    techStack: ["Next.js", "Tailwind", "Shadcn/ui", "Strapi CMS", "v0.dev"],
+    link: "https://newformhome.vercel.app/",
+    codeLink: "",
+    image: "/projects/newformhome.JPG"
+},{
+    title: "QuantumBit",
+    subTitle: "Technology Institute",
+    description: "I designed and developed a compelling landing page for QuantumBit, a Technology Institute, to showcase their courses, expertise, and offerings. The platform combines aesthetic appeal with functionality, delivering a high-performance and SEO-friendly experience. Deployed on Cloudflare pages",
+    features: "SEO friendly Landing page with Courses, Pricing, FAQ, and  Testimonials, and with Blog functionality.",
+    techStack: ["Astro", "Tailwind", "React", "Markdown"],
+    link: "https://quntum-bit.pages.dev/",
+    codeLink: "",
+    image: "/projects/quantum-bit.PNG"
+},{
+    title: "Support Ticketing System",
+    subTitle: "",
+    description: "Users can issue support tickets; admins manage and update statuses. Built using the MERN stack and deployed on Vercel and Render.",
+    features: "Signup/Login, Ticket Creation, Ticket Managment, Responsive Design",
+    techStack: ["React", "React-Router", "Tailwind", "Node.js", "Express.js", "MongoDB"],
+    link: "https://support-ticketing-system-silk.vercel.app",
+    codeLink: "",
+    image: "/projects/support2.PNG"
+},{
+    title: "Personal Portfolio Website",
+    subTitle: "Multilingual",
+    description: "Multilingual support and SEO-friendly build using Astro, GitHub Pages, and GitHub Actions for automated deployment.",
+    features: "Skill showcase, Projects Gallary, Certifications, Responsive Design",
+    techStack: ["Astro", "Tailwind", "DaisyUi", "GitHub Actions"],
+    link: "https://andu-alem.github.io",
+    codeLink: "",
+    image: "/projects/portfolio-astro.PNG"
+},{
+    title: "Portfolio 2",
     subTitle: "Website",
     description: "A modern and sleek portfolio site designed to highlight my skills, completed project, and certifications in a user-friendly and visually appealing format. Deployed on Netlify",
     features: "Skill showcase, Projects Gallary, Certifications, Responsive Design",
@@ -26,15 +62,6 @@ const projectsData = [{
     link: "https://andufereja-portfolio.netlify.app/",
     codeLink: "",
     image: "/projects/portfolio.PNG"
-},{
-    title: "QuantumBit",
-    subTitle: "Technology Institute",
-    description: "I designed and developed a compelling landing page for QuantumBit, a Technology Institute, to showcase their courses, expertise, and offerings. The platform combines aesthetic appeal with functionality, delivering a high-performance and SEO-friendly experience. Deployed on Cloudflare pages",
-    features: "SEO friendly Landing page with Courses, Pricing, FAQ, and  Testimonials, and with Blog functionality.",
-    techStack: ["Astro", "Tailwind", "React"],
-    link: "https://quntum-bit.pages.dev/",
-    codeLink: "",
-    image: "/projects/quantum-bit.PNG"
 },{
     title: "ChessGame",
     subTitle: "Progressive Web App",
@@ -53,15 +80,6 @@ const projectsData = [{
     link: "https://github.com/Andu-alem/laravel-next-ecommerce",
     codeLink: "",
     image: "/projects/lara-next.PNG"
-},{
-    title: "NewForm",
-    subTitle: "Furniture company",
-    description: "NewForm furniture is a big furiniture company specializing in creating beautiful and comfortable furnitures for homes and offices. To showcase their exceptional products, I developed a visually striking and performanc-focused website highlighting their craftsmanship and commitment to quality. The website is powered by Astro with Svelte and Tailwind CSS and deployed on Verceel.",
-    features: "Responsive Design, Product Showcase, SEO Optimzation",
-    techStack: ["Astro", "Tailwind", "Sevelte"],
-    link: "https://newformfurniture.vercel.app/",
-    codeLink: "",
-    image: "/projects/newform.JPG"
 },{
     title: "EventUpdater",
     subTitle: "Event Sharing Platform",
