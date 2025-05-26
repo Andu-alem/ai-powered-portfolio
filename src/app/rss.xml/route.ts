@@ -8,20 +8,20 @@ const projects: Project[] = [
     subTitle: "E-commerce Website",
     description:
       "A comprehensive, feature-rich, and responsive e-commerce website for Ideal Men's Fashion store using a modern tech stack.",
-    tags: ["Next.js", "TypeScript", "Shadcn", "Tailwind CSS", "Prisma", "PostgreSQL"],
+    techStack: ["Next.js", "TypeScript", "Shadcn", "Tailwind CSS", "Prisma", "PostgreSQL"],
     image: "/placeholder.svg?height=300&width=400",
-    link: "https://classicmen.vercel.app",
-    code: "https://github.com/Andu-alem",
+    link: "https://mencollection.vercel.app",
+    codeLink: "https://github.com/Andu-alem",
   },
   {
     title: "ServiceAd",
     subTitle: "Service Sharing Platform",
     description:
       "A platform designed to empower users to promote their services and businesses while making it easier for others to find what they need.",
-    tags: ["Next.js", "Tailwind CSS", "Next-Auth", "MongoDB", "Mongoose"],
+    techStack: ["Next.js", "Tailwind CSS", "Next-Auth", "MongoDB", "Mongoose"],
     image: "/placeholder.svg?height=300&width=400",
     link: "https://servicead.vercel.app",
-    code: "https://github.com/Andu-alem",
+    codeLink: "https://github.com/Andu-alem",
   },
   {
     title: "ChessGame",
@@ -30,10 +30,10 @@ const projects: Project[] = [
       "I developed ChessGame, a progressive web app that offers users a complete chess experience with versatile features and modern design.",
     features:
       "Board Customization, Opponent Options, Difficulty Levels, Full Chess Functionality, Progressive Web App - works offline",
-    tags: ["React", "Tailwind CSS", "Stockfish AI", "PWA"],
+    techStack: ["React", "Tailwind CSS", "Stockfish AI", "PWA"],
     image: "/placeholder.svg?height=300&width=400",
     link: "https://react-chess-app-uixz.onrender.com/",
-    code: "https://github.com/Andu-alem/react-chess-app",
+    codeLink: "https://github.com/Andu-alem/react-chess-app",
   },
 ]
 
