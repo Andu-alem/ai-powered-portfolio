@@ -1,7 +1,7 @@
 import Script from "next/script"
 
 interface StructuredDataProps {
-  data: Record<string, any>
+  data: Record<string, string|object|number>
 }
 
 export function StructuredData({ data }: StructuredDataProps) {
