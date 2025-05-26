@@ -41,7 +41,7 @@ export function HeroSection() {
                 <span className="sr-only">GitHub</span>
               </Link>
               <Link
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/andualem-fereja-602484213/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-foreground"
