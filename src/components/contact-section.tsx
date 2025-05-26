@@ -77,7 +77,7 @@ export function ContactSection() {
               <form className="grid gap-4" action="https://formsubmit.co/andualem.fereja12@gmail.com" method="POST">
                 <input type="hidden" name="_subject" value="New portfolio contact message!" />
                 <input type="hidden" name="_captcha" value="false" />
-                <input type="hidden" name="_next" value="https://your-portfolio-url.com/thank-you" />
+                <input type="hidden" name="_next" value="https://andudev.netlify.app/thank-you" />
                 <div className="grid grid-cols-2 gap-4">
                   <div className="grid gap-2">
                     <label
