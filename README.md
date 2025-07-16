@@ -10,6 +10,11 @@ This is my personal portfolio website built using **Next.js**, showcasing my pro
 - 📁 **Projects Section** – Visual list of my featured projects with images and brief descriptions
 - 📬 **Contact Section** – Simple and accessible contact form or links to reach me
 
+## Screenshot
+
+![Product Catalog](public/next-portfolio.png)
+
+
 ## 💡 Tech Stack
 
 - **Frontend**: Next.js, React, Tailwind CSS, Shadcn/ui
@@ -23,12 +28,27 @@ This is my personal portfolio website built using **Next.js**, showcasing my pro
 
 - public
 - src
-
     - app
     - components
     - hooks
     - lib
 - ...
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Andu-alem/andudev.git
+cd andudev
+```
+
+### 2️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
 
 
 ## 📬 Contact
