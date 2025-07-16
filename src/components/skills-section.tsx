@@ -13,7 +13,7 @@ export function SkillsSection() {
     "Shadcn/ui",
     "React-Router",
     "Astro",
-    "Svelte"
+    "React Native"
   ]
 
   const backendSkills = [
@@ -27,8 +27,10 @@ export function SkillsSection() {
     "REST API",
     "Apollo GraphQL",
     "Prisma",
+    "Drizzle",
     "PHP",
     "Python",
+    "Firebase"
   ]
 
   const toolsSkills = [
@@ -44,6 +46,7 @@ export function SkillsSection() {
     "Netlify",
     "Cloudflare",
     "IoT",
+    "ML & Data Analysis Basics"
   ]
 
   return (
