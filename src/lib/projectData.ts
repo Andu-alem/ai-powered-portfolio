@@ -9,6 +9,15 @@ const projectsData = [{
     codeLink: "https://github.com/Andu-alem",
     image: "/projects/fintrack.PNG"
 },{
+    title: "DevFriend",
+    subTitle: "A developers tool",
+    description: "DevFriend is a full-stack productivity web app for developers to organize their job applications, personal projects, and important events in one place, helping them stay focused while managing their career journey. Built using Next.js(App router & Api routes) and other modern stacks.",
+    features: "Project Tracking, Job Application Tracker, Event Scheduling, Email and Social Authentication, Landing Page, Clean UI/UX",
+    techStack: ["TypeScript", "Next.js", "Better-Auth", "TailwindCSS", "Shadcn/ui", "Drizzle", "Postgres", "Neon", "Vercel"],
+    link: "https://devfriend-one.vercel.app",
+    codeLink: "https://github.com/Andu-alem/devfriend",
+    image: "/projects/devfriend.PNG"
+},{
     title: "Classice Men's",
     subTitle: "For Fashionista!",
     description: "A comprehensive, feature rich, and responsive e-commerce website for Ideal Men's Fashion store using a modern tech stack and deployed on Vercel, leveraging Vercel Blob Store ad Neon PostgreSQL DB provider.",
