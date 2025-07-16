@@ -72,15 +72,6 @@ const projectsData = [{
     codeLink: "https://github.com/Andu-alem/Andu-alem.github.io",
     image: "/projects/portfolio-astro.PNG"
 },{
-    title: "Portfolio 2",
-    subTitle: "Website",
-    description: "A modern and sleek portfolio site designed to highlight my skills, completed project, and certifications in a user-friendly and visually appealing format. Deployed on Netlify",
-    features: "Skill showcase, Projects Gallary, Certifications, Responsive Design",
-    techStack: ["Vue3", "Vue-Router", "Tailwind"],
-    link: "https://andufereja-portfolio.netlify.app/",
-    codeLink: "https://github.com/Andu-alem/AndualemFerejaPortolio",
-    image: "/projects/portfolio.PNG"
-},{
     title: "ChessGame",
     subTitle: "Progressive Web App",
     description: "I developed ChessGame, a progressive web app that offers users a complete chess experience with versatile features and modern design. The app is designed for both chess enthusiasts and casual players, providing a platform to play against an AI opponent powerd by Stockfish or a friend. The app is deployed on Render.",
@@ -89,6 +80,15 @@ const projectsData = [{
     link: "https://react-chess-app-uixz.onrender.com/",
     codeLink: "https://github.com/Andu-alem/react-chess-app",
     image: "/projects/chesszone.PNG"
+},{
+    title: "Portfolio 2",
+    subTitle: "Website",
+    description: "A modern and sleek portfolio site designed to highlight my skills, completed project, and certifications in a user-friendly and visually appealing format. Deployed on Netlify",
+    features: "Skill showcase, Projects Gallary, Certifications, Responsive Design",
+    techStack: ["Vue3", "Vue-Router", "Tailwind"],
+    link: "https://andufereja-portfolio.netlify.app/",
+    codeLink: "https://github.com/Andu-alem/AndualemFerejaPortolio",
+    image: "/projects/portfolio.PNG"
 },{
     title: "Cool Market",
     subTitle: "E-Commerce Web App",
