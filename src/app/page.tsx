@@ -8,6 +8,7 @@ import { Footer } from "@/components/footer"
 import { ScrollAnimations } from "@/components/scroll-animations"
 import { StructuredData } from "@/components/structured-data"
 import { baseUrl } from "@/app/metadata"
+import { AIAssistantDialog } from "@/components/ai-assistant-dialog"
 
 export default function Home() {
   // Person structured data
@@ -39,6 +40,7 @@ export default function Home() {
       </main>
       <Footer />
       <ScrollAnimations />
+      <AIAssistantDialog />
     </div>
   )
 }
