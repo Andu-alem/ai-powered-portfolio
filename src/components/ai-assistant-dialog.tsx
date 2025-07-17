@@ -66,7 +66,7 @@ export function AIAssistantDialog() {
                     </DialogTitle>
                 </DialogHeader>
 
-                <ScrollArea className="flex-1 pr-4 py-4">
+                <ScrollArea className="flex-1 pr-4 py-4 h-[93%]">
                     <div className="space-y-4">
                         {messages.map((message) => (
                             <div
