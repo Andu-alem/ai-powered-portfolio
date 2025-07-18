@@ -61,7 +61,6 @@ export function AIAssistantDialog() {
                         </div>
                         <div className="flex flex-col">
                             <span>Andi&apos;s Assistant</span>
-                            <span className="text-xs text-muted-foreground font-normal">Powered by Gemini</span>
                         </div>
                     </DialogTitle>
                 </DialogHeader>
