@@ -65,14 +65,14 @@ export function AIAssistantDialog() {
                     </DialogTitle>
                 </DialogHeader>
 
-                <ScrollArea className="pr-4 py-2 h-[70%]">
+                <ScrollArea className="pr-3 py-2 h-[70%]">
                     <div className="space-y-4">
                         {messages.map((message) => (
                             <div
                                 key={message.id}
                                 className={`flex gap-3 ${message.role === "user" ? "justify-end" : "justify-start"}`}
                             >
-                                <div className={`flex gap-3 max-w-[97%] sm:max-w-[85%] ${message.role === "user" ? "flex-row-reverse" : "flex-row"}`}>
+                                <div className={`flex gap-3 max-w-[94%] sm:max-w-[85%] ${message.role === "user" ? "flex-row-reverse" : "flex-row"}`}>
                                     <div className="flex-shrink-0 mt-1">
                                         {message.role === "user" ? (
                                             <div className="w-7 h-7 rounded-full bg-primary flex items-center justify-center">
@@ -134,7 +134,7 @@ export function AIAssistantDialog() {
                                             key={index}
                                             variant="outline"
                                             size="sm"
-                                            className="justify-start text-left h-auto py-2 px-3 text-xs hover:bg-muted/50 transition-colors bg-transparent"
+                                            className="justify-start text-left h-auto py-2 px-5 text-xs hover:bg-muted/50 transition-colors bg-transparent"
                                             aria-label="Send message"
                                             onClick={() => handleQuickReply(starter)}
                                             disabled={isLoading}
