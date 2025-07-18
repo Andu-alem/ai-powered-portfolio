@@ -9,11 +9,11 @@ import { ScrollArea } from "@/components/ui/scroll-area"
 import { Send, Bot, User, Sparkles } from "lucide-react"
 
 const CONVERSATION_STARTERS = [
-  "What technologies do you specialize in?",
-  "Tell me about intereting projects you have worked on",
-  "What's your development experience?",
-  "How can I get in touch with you?",
-  "What makes you passionate about coding?",
+  "What technologies does he specialize in?",
+  "Tell me about intereting projects he has worked on",
+  "What's his development experience?",
+  "How can I get in touch with him?",
+  "What makes him passionate about coding?",
 ]
 
 export function AIAssistantDialog() {
@@ -53,7 +53,7 @@ export function AIAssistantDialog() {
                     Ask AI
                 </Button>
             </DialogTrigger>
-            <DialogContent className="sm:max-w-[500px] h-[94vh] flex flex-col">
+            <DialogContent className="sm:max-w-[500px] h-[97vh] flex flex-col">
                 <DialogHeader className="border-b pb-4">
                     <DialogTitle className="flex items-center gap-2">
                         <div className="w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
@@ -66,14 +66,14 @@ export function AIAssistantDialog() {
                     </DialogTitle>
                 </DialogHeader>
 
-                <ScrollArea className="flex-1 pr-4 py-4 h-[93%]">
+                <ScrollArea className="pr-4 py-2 h-[70%]">
                     <div className="space-y-4">
                         {messages.map((message) => (
                             <div
                                 key={message.id}
                                 className={`flex gap-3 ${message.role === "user" ? "justify-end" : "justify-start"}`}
                             >
-                                <div className={`flex gap-3 max-w-[85%] ${message.role === "user" ? "flex-row-reverse" : "flex-row"}`}>
+                                <div className={`flex gap-3 max-w-[97%] sm:max-w-[85%] ${message.role === "user" ? "flex-row-reverse" : "flex-row"}`}>
                                     <div className="flex-shrink-0 mt-1">
                                         {message.role === "user" ? (
                                             <div className="w-7 h-7 rounded-full bg-primary flex items-center justify-center">
@@ -118,7 +118,7 @@ export function AIAssistantDialog() {
                                                 <div className="w-2 h-2 bg-current rounded-full animate-bounce [animation-delay:-0.15s] opacity-80"></div>
                                                 <div className="w-2 h-2 bg-current rounded-full animate-bounce opacity-60"></div>
                                             </div>
-                                            <span className="text-xs text-muted-foreground">AI is typing...</span>
+                                            <span className="text-xs text-muted-foreground">AI is thinking...</span>
                                         </div>
                                     </div>
                                 </div>
@@ -151,7 +151,7 @@ export function AIAssistantDialog() {
                     </div>
                 </ScrollArea>
 
-                <div className="border-t pt-4">
+                <div className="border-t pt-2">
                     <form onSubmit={handleSubmit} className="flex gap-2">
                         <div className="flex-1 relative">
                             <Input
