@@ -18,6 +18,14 @@ const projectsData = [{
     codeLink: "https://github.com/Andu-alem/devfriend",
     image: "/projects/devfriend.PNG"
 },{
+    title: "ChefGPT",
+    subTitle: "Your Cooking Companion",
+    description: "An AI-powered recipe recommender web application that transforms the ingredients you already have into delicious, step-by-step recipes in seconds. Built with a modern, scalable tech stack, ChefGPT blends seamless authentication, powerful AI integration, and a beautiful, responsive UI to make cooking inspiration accessible anytime.",
+    techStack: ["TypeScript", "Nuxt3", "Better-Auth", "TailwindCSS", "Shadcn/ui", "MongoDB", "MongoDB Atlas", "Vercel AI-SDK", "Google GenAI", "Netlify", "Sentry"],
+    link: "https://chefgpt-recipe.netlify.app",
+    codeLink: "https://github.com/Andu-alem/ai-recipe-recommender",
+    image: "/projects/chefgpt.PNG"
+},{
     title: "Classice Men's",
     subTitle: "For Fashionista!",
     description: "A comprehensive, feature rich, and responsive e-commerce website for Ideal Men's Fashion store using a modern tech stack and deployed on Vercel, leveraging Vercel Blob Store ad Neon PostgreSQL DB provider.",
