@@ -2,9 +2,9 @@
 const projectsData = [{
     title: "TalkBookAI",
     subTitle: "Chat with any book",
-    description: "TalkBookAI is an innovative web application that allows users to engage in dynamic conversations with books. By selecting a book from a curated list, users can ask questions and receive responses as if they were interacting with the author themselves. The app leverages Retrieval-Augmented Generation (RAG) techniques to provide contextually relevant answers, enhancing the reading experience. Built with a robust tech stack including FastAPI, MongoDB Atlas, LangChain, and Google Gemini API, TalkBookAI ensures seamless performance and scalability. The frontend is crafted using TypeScript, React Router V7, Tailwind CSS, and Shadcn/ui for a modern and intuitive user interface. Authentication is securely managed with JWT Auth.",
+    description: "TalkBookAI is an innovative web application that allows users to engage in dynamic conversations with books. By selecting a book from a curated list, users can ask questions and receive responses as if they were interacting with the author themselves. The app leverages RAG techniques to provide contextually relevant answers, enhancing the reading experience. Built with a robust tech stack including FastAPI, MongoDB (as a vector and document database), LangChain, Google Gemini API, and React Router V7. Authentication is securely managed with JWT Auth.",
     features: "Chat with books, Author-like responses, Conversation history, User authentication",
-    techStack: ["FastAPI", "MongoDB Atlas", "LangChain", "Google Gemini API", "TypeScript", "React Router V7", "Tailwind", "Shadcn/ui", "JWT Auth", "Docker"],
+    techStack: ["FastAPI", "MongoDB Atlas", "LangChain", "Google Gemini API", "TypeScript", "React Router V7", "Tailwind", "Shadcn/ui", "JWT Auth", "Docker", "Render", "Vercel"],
     link: "https://chatbook-ai.vercel.app",
     codeLink: "https://github.com/Andu-alem/chatbook-ai",
     image: "/projects/talkbookai.PNG"
