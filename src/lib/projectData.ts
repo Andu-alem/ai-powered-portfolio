@@ -1,5 +1,14 @@
 
 const projectsData = [{
+    title: "TalkBookAI",
+    subTitle: "Chat with any book",
+    description: "TalkBookAI is an innovative web application that allows users to engage in dynamic conversations with books. By selecting a book from a curated list, users can ask questions and receive responses as if they were interacting with the author themselves. The app leverages Retrieval-Augmented Generation (RAG) techniques to provide contextually relevant answers, enhancing the reading experience. Built with a robust tech stack including FastAPI, MongoDB Atlas, LangChain, and Google Gemini API, TalkBookAI ensures seamless performance and scalability. The frontend is crafted using TypeScript, React Router V7, Tailwind CSS, and Shadcn/ui for a modern and intuitive user interface. Authentication is securely managed with JWT Auth.",
+    features: "Chat with books, Author-like responses, Conversation history, User authentication",
+    techStack: ["FastAPI", "MongoDB Atlas", "LangChain", "Google Gemini API", "TypeScript", "React Router V7", "Tailwind", "Shadcn/ui", "JWT Auth", "Docker"],
+    link: "https://chatbook-ai.vercel.app",
+    codeLink: "https://github.com/Andu-alem/chatbook-ai",
+    image: "/projects/talkbookai.PNG"
+},{
     title: "FinTrack",
     subTitle: "A telegram mini app",
     description: "FinTrack is a modern and responsive Telegram Mini App designed to help users effortlessly track their income, expenses, and budgets within the Telegram ecosystem. Built with a mobile-first approach, the app provides a seamless user experience, adapting to Telegram's native theme (light/dark) using the Telegram WebApp SDK (TWA SDK).",
