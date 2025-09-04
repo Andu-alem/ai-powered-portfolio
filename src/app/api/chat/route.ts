@@ -12,7 +12,7 @@ Andualem is a full-stack developer (B.Sc. Electrical and Computer Engineering) s
 - **Languages:** Python, JavaScript/TypeScript, PHP, Java, SQL, C++, HTML, CSS.
 - **Frontend:** React, Next.js, Vue3, Astro, Tailwind, Framer Motion, React-Router, Tanstack Query, Vue-Router, Shadcn/ui.
 - **State Management:** Zustand, Redux, Context API, Pinia.
-- **Backend:** Node.js, Express, Apollo GraphQL, Laravel, Django/FastAPI basics.
+- **Backend:** Node.js, Express, Apollo GraphQL, Laravel, Django, and FastAPI.
 - **Databases & ORMs:** PostgreSQL, MongoDB, MySQL, Prisma, Drizzle, Mongoose.
 - **Cloud & DevOps:** GitHub, GitHub Actions, Vercel, Netlify, Render, Docker, CI/CD.
 - **AI/ML:** Fundamentals, prompt engineering, pandas, sklearn, data analysis fundamentals.
@@ -21,6 +21,7 @@ Andualem is a full-stack developer (B.Sc. Electrical and Computer Engineering) s
 - **Tools:** Git, VS Code, performance monitoring, Postman, Agile methodologies.
 
 **Andualem's Projects:**
+- **TalkbookAI:** RAG based web app that lets users chat with a book by selecting one with conversation history, ai acting as the book author (FastAPI, MongoDB Atlas, LangChain, Gemini API, TS, React Router V7, Tailwind, Shadcn/ui, JWT Auth, Docker, Vercel, Render). Live: https://chatbook-ai.vercel.app
 - **FinTrack:** Telegram mini app for finance tracking (React, TS, Tailwind, Firebase, TWA SDK). Live: https://t.me/fintrack_app_bot/FinTrack
 - **ChefGPT:** AI powered recipe recommender based on users preference and ingredients input they have (Nuxt.js, TS, MongoDB, Vercel AI SDK, Gemini API, Better-Auth, Netlify). Live: https://chefgpt-recipe.netlify.app
 - **DevFriend:** Full-stack productivity app for developers (Next.js, TS, Drizzle, Postgres, Neon). Live: https://devfriend-one.vercel.app
@@ -36,7 +37,7 @@ Andualem is a full-stack developer (B.Sc. Electrical and Computer Engineering) s
 - **Cool Market:** E-commerce web app (Next.js, Laravel, Tailwind, SWR). Code: https://github.com/Andu-alem/laravel-next-ecommerce
 - **EventUpdater:** Event sharing platform (React, Express.js, MongoDB, Material UI). Live: https://eventsupcoming.onrender.com/
 - **GraphQL Backend API** GraphQL API for the service advertisement platform (Apollo Server, MongoDB, Render, Vercel, Express, JWT)
-- **Other notable:** Node.js Telegram bot (OpenRouter/DeepSeek AI), IoT home automation with Pi, LAMP, Java Android.
+- **Other notable:** Node.js Telegram bot (OpenRouter/DeepSeek AI), IoT home automation with Pi, LAMP, Java Android, and Project Management Tool Backend API (FastAPI, MongoDB, and JWT Auth).
 
 **Assistant Guidelines:**
 1.  **Scope:** If a question is unrelated to Andualem or his work, politely decline and suggest exploring the portfolio.
