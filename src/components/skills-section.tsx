@@ -5,50 +5,45 @@ export function SkillsSection() {
   const frontendSkills = [
     "React",
     "Next.js",
-    "Vue",
+    "Vue 3",
     "TypeScript",
-    "JavaScript",
-    "Tailwind CSS",
-    "Bootstrap",
-    "Shadcn/ui",
-    "React-Router",
+    "JavaScript (ES6+)",
+    "React Router (v7)",
+    "Nuxt 3",
     "Astro",
-    "React Native"
+    "Tailwind CSS",
+    "Shadcn/ui",
+    "Responsive & Accessible UI Design"
   ]
-
+  
   const backendSkills = [
+    "FastAPI",
     "Node.js",
     "Express.js",
     "Laravel",
-    "Strapi CMS",
-    "MongoDB",
-    "PostgreSQL",
-    "MySQL",
-    "REST API",
-    "Apollo GraphQL",
-    "Prisma",
-    "Drizzle",
-    "PHP",
     "Python",
-    "Firebase"
+    "MongoDB / MongoDB Atlas",
+    "PostgreSQL (Neon, Prisma, Drizzle)",
+    "REST API Design",
+    "GraphQL Basics (Apollo)",
+    "Strapi CMS",
+    "Firebase Firestore",
+    "Authentication & Authorization (JWT, OAuth)",
+    "Vector Databases & Search (for RAG)"
   ]
-
+  
   const toolsSkills = [
     "Git & GitHub",
-    "Docker",
-    "CI/CD",
-    "Jest",
-    "Vitest",
-    "Testing Library",
-    "VS Code + Copilot",
-    "Vercel v0",
-    "Openrouter API",
-    "Netlify",
-    "Cloudflare",
-    "IoT",
-    "ML & Data Analysis Basics"
+    "Docker & Containerization",
+    "CI/CD (GitHub Actions, Vercel, Render)",
+    "Testing (Jest / Vitest / Testing Library basics)",
+    "Cloud Deployment (Vercel, Render, Netlify, Cloudflare)",
+    "Google Gemini API / LLM Integration",
+    "LangChain & Retrieval-Augmented Generation",
+    "VS Code & AI Pairing Tools (e.g., Copilot)",
+    "Project Planning & Documentation"
   ]
-
+  
   return (
     <section id="skills" className="w-full py-12 md:py-24 lg:py-32 bg-muted">
       <div className="container mx-auto px-4 md:px-6">
