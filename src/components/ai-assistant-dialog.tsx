@@ -53,7 +53,7 @@ export function AIAssistantDialog() {
                     Ask AI
                 </Button>
             </DialogTrigger>
-            <DialogContent className="sm:max-w-[500px] h-[97vh] flex flex-col">
+            <DialogContent className="sm:max-w-[500px] h-[93vh] flex flex-col">
                 <DialogHeader className="border-b pb-4">
                     <DialogTitle className="flex items-center gap-2">
                         <div className="w-8 h-8 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 flex items-center justify-center">
@@ -156,7 +156,7 @@ export function AIAssistantDialog() {
                             <Input
                                 value={input}
                                 onChange={handleInputChange}
-                                placeholder="Ask me anything about this developer..."
+                                placeholder="Ask me anything about Andualem..."
                                 disabled={isLoading}
                                 className="pr-12 rounded-full border-2 focus:border-primary/50"
                             />
