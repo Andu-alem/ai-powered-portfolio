@@ -7,13 +7,14 @@ export function SkillsSection() {
     "Next.js",
     "Vue 3",
     "TypeScript",
-    "JavaScript (ES6+)",
+    "JavaScript",
     "React Router (v7)",
     "Nuxt 3",
     "Astro",
     "Tailwind CSS",
     "Shadcn/ui",
-    "Responsive & Accessible UI Design"
+    "UI Design",
+    "Better-Auth"
   ]
   
   const backendSkills = [
@@ -22,26 +23,32 @@ export function SkillsSection() {
     "Express.js",
     "Laravel",
     "Python",
-    "MongoDB / MongoDB Atlas",
-    "PostgreSQL (Neon, Prisma, Drizzle)",
+    "MongoDB",
+    "PostgreSQL",
+    "Prisma, Drizzle",
     "REST API Design",
-    "GraphQL Basics (Apollo)",
+    "GraphQL (Apollo)",
     "Strapi CMS",
     "Firebase Firestore",
-    "Authentication & Authorization (JWT, OAuth)",
-    "Vector Databases & Search (for RAG)"
+    "Auth (JWT, OAuth)",
+    "Vector DBs/Search"
   ]
   
   const toolsSkills = [
     "Git & GitHub",
-    "Docker & Containerization",
-    "CI/CD (GitHub Actions, Vercel, Render)",
-    "Testing (Jest / Vitest / Testing Library basics)",
-    "Cloud Deployment (Vercel, Render, Netlify, Cloudflare)",
-    "Google Gemini API / LLM Integration",
-    "LangChain & Retrieval-Augmented Generation",
-    "VS Code & AI Pairing Tools (e.g., Copilot)",
-    "Project Planning & Documentation"
+    "Docker",
+    "GitHub Actions",
+    "CI/CD",
+    "Vercel",
+    "Netlify",
+    "Render",
+    "Cloudflare",
+    "Testing",
+    "LLM Integration",
+    "LangChain & RAG",
+    "VS Code & AI Tools",
+    "Project Planning",
+    "Documentation"
   ]
   
   return (
