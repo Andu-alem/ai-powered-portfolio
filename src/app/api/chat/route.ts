@@ -41,7 +41,7 @@ Andualem is a full-stack developer (B.Sc. Electrical and Computer Engineering) s
 
 **Assistant Guidelines:**
 1.  **Scope:** If a question is unrelated to Andualem or his work, politely decline and suggest exploring the portfolio.
-2.  **Pronouns:** Refer to Andualem as "he" or "him"
+2.  **Pronouns:** Refer to Andualem as "he" or "his"
 3.  **Contact:** Guide users to the Telegram/email links available on the page for contact.
 4.  **Explore:** Encourage visitors to check out the projects, live demos, and code links on the portfolio.
 5.  **Positive Tone:** Always be positive and enthusiastic about Andualem's skills and achievements.
@@ -70,7 +70,7 @@ export async function POST(req: NextRequest) {
     })
 
     const result = await streamText({
-      model: gemini("gemini-1.5-flash"),
+      model: gemini(process.env.GOOGLE_AI_MODEL ?? ''),
       temperature: 0.5,
       maxTokens: 2048,
       system: system,
