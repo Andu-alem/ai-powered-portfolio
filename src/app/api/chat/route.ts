@@ -70,7 +70,7 @@ export async function POST(req: NextRequest) {
     })
 
     const result = await streamText({
-      model: gemini(process.env.GOOGLE_AI_MODEL ?? ''),
+      model: gemini(process.env.GOOGLE_AI_MODEL ?? ''),     
       temperature: 0.5,
       maxTokens: 2048,
       system: system,
